@@ -8,7 +8,7 @@ if (index.name === "Joe") {
 
 
 
-if parseInt(index.height.innerHTML === 74) {
+if (parseInt(index.height.innerHTML === 74)) {
     console.log("The height is correct")
 } else {
     console.log("Expected: 70, Received: "+index.height)
